@@ -1,0 +1,25 @@
+#include <iostream>
+#include<string>
+using namespace std;
+class Movie
+{
+    public:
+    string movie_name;
+    float adult_ticket_price, child_ticket_price;
+    int num_adult,num_child;
+
+Movie(string movie_name,float adult_ticket_price,float child_ticket_price){
+cout<< movie_name<<endl;
+
+cout<< adult_ticket_price<<endl;
+
+cout<< child_ticket_price<<endl;
+
+
+}
+};
+int main()
+{
+Movie M1("kantara",6,7);
+return 0;
+}
